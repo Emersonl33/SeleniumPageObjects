@@ -4,27 +4,87 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a95f054-ea2d-4166-9e62-a5326de0b0df" name="Changes" comment="" />
+    <list default="true" id="0a95f054-ea2d-4166-9e62-a5326de0b0df" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/inmetrics/casetest/PaginaMae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/inmetrics/casetest/PaginaMae.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/inmetrics/casetest/pages/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/inmetrics/casetest/pages/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/inmetrics/casetest/pages/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/inmetrics/casetest/pages/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/inmetrics/casetest/tests/RegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/inmetrics/casetest/tests/RegisterTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2cECvQ9PGwTVrr5HIroSZvX4c9Y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.RegisterTests.testRegister">
+    <configuration name="RegisterTest.testRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CaseTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.inmetrics.casetest.register.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.inmetrics.casetest.register" />
+      <option name="MAIN_CLASS_NAME" value="br.com.inmetrics.casetest.register.RegisterTest" />
+      <option name="METHOD_NAME" value="testRegister" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTests.testRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CaseTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.inmetrics.casetest.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.inmetrics.casetest.tests" />
+      <option name="MAIN_CLASS_NAME" value="br.com.inmetrics.casetest.tests.RegisterTests" />
+      <option name="METHOD_NAME" value="testRegister" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RegisterTests.testRegister" />
+        <item itemvalue="JUnit.RegisterTest.testRegister" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,5 +95,13 @@
       <updated>1707667582098</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CaseTest$RegisterTests_testRegister.ic" NAME="RegisterTests.testRegister Coverage Results" MODIFIED="1707674290496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>br.com.inmetrics.casetest.register.*</FILTER>
+    </SUITE>
   </component>
 </project>
