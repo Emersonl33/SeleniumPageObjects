@@ -7,11 +7,12 @@ import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+
 import java.time.Duration;
 
 
 @DisplayName("Teste Register")
-public class Tests {
+public class MainTests{
     private WebDriver browser;
     @BeforeEach
     public void setup(){

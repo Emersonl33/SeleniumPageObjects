@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class Home extends PaginaMae {
-    private By BotaoMyAccount = By.id("menu-item-50");
+    private final By BotaoMyAccount = By.id("menu-item-50");
 
     public Home(WebDriver browser) {
         super(browser);
