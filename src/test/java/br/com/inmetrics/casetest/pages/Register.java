@@ -11,13 +11,13 @@ public class Register extends PaginaMae {
     }
     public void registrarUsuario(String email, String senha){
 
-        //Digitar o nome do campo emailadress
+        
         browser.findElement(By.id("reg_email")).sendKeys(email);
 
-        //Digitar a senha no campo Password
+        
         browser.findElement(By.id("reg_password")).sendKeys(senha);
 
-        //Clicar no botão register
+        
         browser.findElement(By.name("register")).click();
     }
 }
