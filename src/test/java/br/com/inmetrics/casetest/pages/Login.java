@@ -16,11 +16,11 @@ public class Login extends PaginaMae {
     }
 
     public boolean LoginOk() {
-        // Verificar se o usuário está logado
+        
         return browser.findElement(By.linkText("Logout")).isDisplayed();
     }
     public boolean LoginFail() {
-        // Verificar se o login falhou a partir de uma mensagem de erro
+        
         return browser.findElement(By.id("customer_login")).isDisplayed();
     }
 
